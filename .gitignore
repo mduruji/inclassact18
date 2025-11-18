@@ -43,3 +43,97 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ============================
+# FLUTTER / DART
+# ============================
+
+# Flutter/Dart build directories
+build/
+.dart_tool/
+.packages
+
+# Generated plugin registrant
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Local pub cache files
+.pub-cache/
+.pub/
+
+# Lockfile (optional – some teams ignore it)
+# pubspec.lock
+
+# ============================
+# ANDROID (Firebase)
+# ============================
+
+# Keystore files (DO NOT COMMIT)
+android/app/*.jks
+android/app/*.keystore
+android/key.properties
+
+# Gradle build & cache
+android/.gradle/
+android/build/
+android/app/build/
+
+# Google Services JSON (generated per device/environ)
+android/app/google-services.json
+
+# Firebase Crashlytics build outputs
+android/app/firebase-build-cache/
+android/app/intermediates/
+android/app/generated/
+
+# ============================
+# iOS (Firebase)
+# ============================
+
+# Pods (NEVER commit)
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/Flutter/flutter_export_environment.sh
+
+# Firebase plist
+ios/Runner/GoogleService-Info.plist
+
+# iOS build folders
+ios/build/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# ============================
+# WEB (if using Firebase web)
+# ============================
+
+# Firebase web config (optional)
+# web/firebase_config.js
+
+# ============================
+# MACOS / WINDOWS / LINUX
+# ============================
+
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/Podfile.lock
+
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# ============================
+# LOGS / MISC
+# ============================
+
+*.log
+*.tmp
+*.DS_Store
+.DS_Store
+
